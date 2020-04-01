@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('../font/roboto-regular-webfont.woff');
+}
+
+body {
+    font-family: roboto;
+	margin: 0px;
+    background-color: #FFFFFF;
+    font-size: 1vw;
+}
+
+.all {
+    width: 100vw;
+    height: 100vh;
+}
+
+.center {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flutuar {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.box {
+	padding-top: 10%;
+}
+
+.menu_left {
+	background-color: #0C2461;
+    width: 15%;
+    height: 100vh;
+}
+
+#logonome {
+	width: 80%;
+}
+
+#foto_perfil {
+	width: 70%;
+	padding: 2%;
+	border-radius: 50%;
+	border: 3px dashed #58D4C9;
+}
+
+.nome_usuario {
+    height: 10%;
+}
+
+.nome_box {
+    height: 60%;
+}
+
+.nome_usuario li a, .nome_usuario li {
+    margin-bottom: 2%;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+}
+
+.nome_usuario li.usuario {
+	font-weight: normal;
+	font-size: 1em;
+}
+
+.nome_usuario li a:hover {
+    color: #58D4C9;
+}
+
+.nome a.active {
+    font-size: 1.2em;
+    color: #58D4C9;
+}
+
+.sidemenu, .nome_usuario {
+    width: 70%;
+}
+
+.sidemenu ul, .nome_usuario ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidemenu li a {
+    margin-bottom: 6%;
+    display: block;
+    padding: 6%;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #181818;
+    border-radius: 15px;
+}
+
+.sidemenu li a:hover, .sair p a:hover {
+    background-color: #58D4C9;
+    box-shadow: 0px 0px 5px rgba(88,212,201,0.9);
+    color: white;
+}
+
+.sidemenu li a.active {
+    background-color: #58D4C9;
+    color: white;
+}
+
+.footer_menu {
+    position:absolute;
+    bottom:0;
+    width:15%;
+}
+
+.developers, .developers a {
+	margin-bottom: 5%;
+    text-align: center;
+    font-size: 0.9em;
+	color: white;
+}
+
+a.site_devs {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.bar_top {
+    background-color: #08173E;
+    padding: 1%;
+    width: 85%;
+    height: 12%;
+}
+
+.funcao {
+    width: 25%;
+    margin-left: 35%;
+}
+
+.funcao p {
+    margin: 2% 20%;
+    padding: 2%;
+    background-color: #58D4C9;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 15px;
+}
+
+.sair {
+    width: 10%;
+    float: right;
+}
+
+.sair p a {
+    margin: 2% 0% 2% 40%;
+    padding: 2% 7%;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #181818;
+    border-radius: 15px;
+}
+
+.sair_icon {
+    width: 12%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.container_content {
+    background-color: #FFFFFF;
+    width: 85%;
+    height: 88%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background-color: #D6D6D6;
+    border: 10px solid #757575;
+    padding: 1%;
+    border-radius: 30px;
+    width: 95%;
+    height: 85%;
+}
+
+.content_perfil {
+    background-color: #D6D6D6;
+    border: 10px solid #757575;
+    padding: 1%;
+    border-radius: 30px;
+    width: 85%;
+    height: 85%;
+}
+
+
+h1.sub {
+    color: black;
+    width: 100%;
+    border-bottom-style: solid;
+    font-size: 30px;
+
+}
+ 
+h2.sub, h3.sub {
+    color: #673ab7;
+    width: 100%;
+    border-bottom-style: solid;
+
+}
+
+p .sub{
+    font-size: 40px;
+}
+
+table.horario {
+    width:100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+ 
+table.horario tr {
+    border: 1px solid black;
+}
+ 
+table.horario td,
+table.horario th{
+    border: 1px solid black;
+}
+
+table.horario th,
+table.horario td {
+    padding: 15px;
+}
+ 
+/*Alinhando os cabeçalhos à esquerda*/
+table.horario th {
+    text-align: left;
+}
+
+table.horario caption {
+    font-weight: bolder;
+    color:cornflowerblue;
+    text-align: right;
+    padding-bottom: 10px;
+}
+/* Formatando as celulas de cabeçalho */
+ 
+table.horario thead th,
+table.horario tfoot th,
+table.horario tbody th{
+    background-color: royalblue;
+    //color: darksalmon;
+    color: antiquewhite;
+    font-weight: lighter;
+    padding: 5px;
+    border:none;
+}

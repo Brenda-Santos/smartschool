@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('../font/roboto-regular-webfont.woff');
+}
+
+body {
+    font-family: roboto;
+	margin: 0px;
+    background: #58D4C9;
+    font-size: 1vw;
+}
+
+.lapis_box {
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#lapis1, #lapis2 {
+    width: 100%;
+}
+
+#lapis2 {
+    transform: rotate(180deg);
+}
+
+.all {
+    width: 70%;
+    height: 70vh;
+    margin: 15vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #0C2461;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flutuar {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.logo_box {
+    width: 50%;
+}
+
+.logo {
+    width: 60%;
+}
+
+.barra_box {
+    width: 0.3vw;
+    height: 90%;
+    background-color: white;
+    margin-right: 5%;
+    color: white;
+}
+
+.login_box {
+    width: 37%;
+    margin-right: 5%;
+}
+
+.text {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.login {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 15%;
+}
+
+.email, .senha {
+    padding-left: 4%;
+    margin-top: 8%;
+}
+
+.text a {
+    color: white;
+    font-size: 0.9em;
+}
+
+.text a:hover {
+    color: #58D4C9;
+    font-size: 0.9em;
+}
+
+.esqueciasenha {
+    text-align: right;
+    padding-right: 4%;
+}
+
+.botao {
+    text-align: right;
+}
+
+::-webkit-input-placeholder  {
+    color: #6D6D6D;
+    font-weight: normal;
+}
+   
+  input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #6D6D6D;
+    font-weight: normal;
+}
+
+input[type=email], input[type=password] {
+    font-size: 1.1em;
+    width: 100%;
+    padding:4%;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+input[type=email]:focus, input[type=password]:focus {
+    background-color: #D1FDFA;
+    box-shadow: 0px 0px 5px rgba(88,212,201,0.9);
+    outline: 0;
+}
+
+input[type=submit] {
+    margin-top: 10%;
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20%;
+    background-color: #58D4C9;
+    border: none;
+    outline: 0;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover {
+    box-shadow: 0px 0px 5px rgba(88,212,201,0.9);
+}
